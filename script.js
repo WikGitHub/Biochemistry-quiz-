@@ -80,35 +80,60 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'Q1',
+    question: 'Structurally RNA and DNA are fully identical:',
     answers: [
-      { text: 'A1', correct: true },
-      { text: 'A2', correct: false }
+      { text: 'True', correct: false },
+      { text: 'False', correct: true }
     ]
   },
+
   {
-    question: 'Q2',
+    question: 'Purines are:',
     answers: [
-      { text: 'A1', correct: true },
-      { text: 'A2', correct: false },
-      { text: 'A3', correct: false },
-      { text: 'A4', correct: false }
+      { text: 'Adenine & Cytosine', correct: false },
+      { text: 'Guanine & Thymine', correct: false },
+      { text: 'Adenine & Guanine', correct: true },
+      { text: 'Guanone & Cytosine', correct: false }
     ]
   },
+
   {
-    question: 'Q3',
+    question: 'Which of the following has the beads on a string structure?:',
     answers: [
-      { text: 'A1', correct: true },
-      { text: 'A2', correct: false }
+      { text: 'Nucleosome', correct: true },
+      { text: 'Chromosome', correct: false },
+      { text: 'Chromatin', correct: false },
+      { text: 'Heterochromatin', correct: false }
     ]
   },
+
   {
-    question: 'Q4',
+    question: 'Which position of a codon is said to wobble?:',
     answers: [
-      { text: 'A1', correct: false },
-      { text: 'A2', correct: true },
-      { text: 'A3', correct: false },
-      { text: 'A4', correct: false }
+      { text: 'First', correct: false },
+      { text: 'Second', correct: false },
+      { text: 'Third', correct: true },
+      { text: 'Fourth', correct: false }
+    ]
+  },
+
+  {
+    question: 'Total tield of ATP in respiration is:',
+    answers: [
+      { text: '2', correct: false },
+      { text: '32', correct: false },
+      { text: '36', correct: true },
+      { text: '34', correct: false }
+    ]
+  },
+
+  {
+    question: 'Short polypeptides are called:',
+    answers: [
+      { text: 'Polypeptides', correct: false },
+      { text: 'Primary structures', correct: false },
+      { text: 'Secondary structures', correct: false },
+      { text: 'Oligopeptides', correct: true }
     ]
     }
 ]
