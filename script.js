@@ -5,6 +5,7 @@ const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 let shuffledQuestions, currentQuestionIndex
 
+
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++
@@ -75,7 +76,6 @@ function clearStatusClass(element) {
   element.classList.remove('wrong')
 }
 
-
 // code for questions 
 
 const questions = [
@@ -137,3 +137,6 @@ const questions = [
     ]
     }
 ]
+
+
+// code for score 
