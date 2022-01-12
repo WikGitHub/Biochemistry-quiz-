@@ -57,7 +57,7 @@ function selectAnswer(e) {
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')
   } else {
-    startButton.innerText = 'Restart'
+    startButton.innerText = 'Restart' //restart button is here 
     startButton.classList.remove('hide')
   }
 }
@@ -140,3 +140,4 @@ const questions = [
 
 
 // code for score 
+// code for restart? 
