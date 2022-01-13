@@ -141,3 +141,4 @@ const questions = [
 
 // code for score 
 // code for restart? 
+// in the HTML do i need to add 'answer 5' etc...
