@@ -39,6 +39,8 @@ function showQuestion(question) {
   })
 }
 
+
+// make this only appear in the scoreboard final 
 function resetState() {
   clearStatusClass(document.body)
   nextButton.classList.add('hide')
