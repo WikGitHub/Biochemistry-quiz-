@@ -79,7 +79,6 @@ function clearStatusClass(element) {
 }
 
 // code for questions 
-
 const questions = [
   {
     question: 'Structurally RNA and DNA are fully identical:',
