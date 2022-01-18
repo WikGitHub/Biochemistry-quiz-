@@ -59,6 +59,7 @@ function selectAnswer(e) {
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')
   } else {
+    //show score here 
     startButton.innerText = 'Restart' //restart button is here 
     startButton.classList.remove('hide')
   }
@@ -138,6 +139,12 @@ const questions = [
     ]
     }
 ]
+
+function score() {
+  if (answer.correct) {
+    score =+ 1
+  }
+}
 
 
 // code for score 
