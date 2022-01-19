@@ -4,9 +4,9 @@
   }
   
   :root {
-    --hue-neutral: 550;
-    --hue-wrong: 0;
-    --hue-correct: 145;
+    --hue-neutral: 550; /* neutral colour */
+    --hue-wrong: 0; /* wrong colour */
+    --hue-correct: 145; /* correct colour */
   }
   
   body {
@@ -21,6 +21,7 @@
     background-color: hsl(var(--hue), 100%, 40%);
   }
   
+  /* using classes to change from neutral to worng/correct coloue */
   body.correct {
     --hue: var(--hue-correct);
   }
@@ -31,13 +32,14 @@
   
   .container {
     width: 800px;
-    max-width: 80%;
+    max-width: 80%; /*content doesnt overflow page*/
     background-color: rgba(255, 255, 255, 0.425);
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 10px 2px;
   }
   
+  /*answers*/
   .btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -45,6 +47,7 @@
     margin: 20px 0;
   }
   
+  /*buttons*/
   .btn {
     --hue: var(--hue-neutral);
     border: 2px solid hsl(var(--hue), 100%, 30%);
@@ -61,24 +64,25 @@
   
   .btn.correct {
     --hue: var(--hue-correct);
-    color: black;
   }
   
   .btn.wrong {
     --hue: var(--hue-wrong);
   }
   
-  .start-btn, .next-btn {
+  .start-btn, .next-btn { /*include score and restart?*/
     font-size: 1rem;
     padding: 20px 40px;
   }
   
+  /*wrapping of buttons*/
   .controls {
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
+  /*hides contents*/
   .hide {
     display: none;
   }
