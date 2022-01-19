@@ -12,14 +12,16 @@ nextButton.addEventListener('click', () => {
   setNextQuestion()
 })
 
+/*what happens when you click the 'start' button*/
 function startGame() {
   startButton.classList.add('hide')
-  shuffledQuestions = questions.sort(() => Math.random() - .5)
-  currentQuestionIndex = 0
+  shuffledQuestions = questions.sort(() => Math.random() - .5) /*shuffles Qs*/
+  currentQuestionIndex = 0 /* to start on first Q*/
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
 }
 
+/*what happens when you click the 'next' button*/
 function setNextQuestion() {
   resetState()
   showQuestion(shuffledQuestions[currentQuestionIndex])
@@ -39,7 +41,6 @@ function showQuestion(question) {
   })
 }
 
-
 // make this only appear in the scoreboard final 
 function resetState() {
   clearStatusClass(document.body)
@@ -49,6 +50,7 @@ function resetState() {
   }
 }
 
+/*what happens when you select an answer*/
 function selectAnswer(e) {
   const selectedButton = e.target
   const correct = selectedButton.dataset.correct
