@@ -1,7 +1,11 @@
-** Biochemistry quiz 
+# Biocemistry quiz built using JavaScript, CSS and HTML 
+This project tests your biochemistry knowledge with a few questions.
 
+## Project Description
+Within this project I demonstrate the use of JavaScript, CSS and HTML for building a web-based application (quiz). 
 
-** Created by 
+## IDE
+VSCode. 
 
-
-*Special thanks 
+## Acknowledgements 
+Special thanks to WebDevSimplified on YouTube for providing the basis for this project. 
