@@ -1,4 +1,4 @@
-# Biocemistry quiz built using JavaScript, CSS and HTML 
+# Biochemistry quiz built using JavaScript, CSS and HTML 
 This project tests your biochemistry knowledge with a few questions. Fun fact, my undergraduate degree is in biochemistry! 
 
 ## Project Description
