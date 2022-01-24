@@ -41,7 +41,7 @@ function showQuestion(question) {
   })
 }
 
-// make this only appear in the scoreboard final 
+
 function resetState() {
   clearStatusClass(document.body)
   nextButton.classList.add('hide')
@@ -50,7 +50,7 @@ function resetState() {
   }
 }
 
-/*what happens when you select an answer*/
+// what happens when you select an answer
 function selectAnswer(e) {
   const selectedButton = e.target
   const correct = selectedButton.dataset.correct
@@ -61,8 +61,7 @@ function selectAnswer(e) {
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')
   } else {
-    //show score here 
-    startButton.innerText = 'Restart' //restart button is here 
+    startButton.innerText = 'Restart' 
     startButton.classList.remove('hide')
   }
 }
@@ -149,6 +148,3 @@ function score() {
 }
 
 
-// code for score 
-// code for restart? 
-// in the HTML do i need to add 'answer 5' etc

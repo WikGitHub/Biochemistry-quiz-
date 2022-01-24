@@ -21,7 +21,7 @@
     background-color: hsl(var(--hue), 100%, 40%);
   }
   
-  /* using classes to change from neutral to worng/correct coloue */
+  /* using classes to change from neutral to wrong/correct colour */
   body.correct {
     --hue: var(--hue-correct);
   }
