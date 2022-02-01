@@ -121,7 +121,7 @@ const questions = [
   },
 
   {
-    question: 'Total tield of ATP in respiration is:',
+    question: 'Total yield of ATP in respiration is:',
     answers: [
       { text: '2', correct: false },
       { text: '32', correct: false },
